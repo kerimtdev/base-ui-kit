@@ -1,0 +1,286 @@
+:root {
+  --red: #ed2232;
+  --orange: #ff8b23;
+  --yellow: #ffbd00;
+  --olive: #32CD32;
+  --green: #018a4d;
+  --teal: #008080;
+  --blue: #1088e5;
+  --violet: #EE82EE;
+  --purple: #B413EC;
+  --pink: #FF1493;
+  --brown: #7f2900;
+  --grey: #A0A0A0;
+  --black: #000000;
+  --white: #FFF;
+  --primaryColor: var(--blue);
+  --secondaryColor: var(--grey);
+}
+
+.bg-primary {
+  background: #1088e5 !important;
+}
+.bg-primary:hover {
+  background: #2497f0 !important;
+}
+.bg-primary:focus {
+  box-shadow: 0 0 8px #7ac0f6;
+}
+
+.bg-secondary {
+  background: #A0A0A0 !important;
+}
+.bg-secondary:hover {
+  background: #919191 !important;
+}
+.bg-secondary:focus {
+  box-shadow: 0 0 8px #dddddd;
+}
+
+.bg-red {
+  background: #ed2232 !important;
+}
+.bg-red:hover {
+  background: #ef3e4c !important;
+}
+.bg-red:focus {
+  box-shadow: 0 0 8px #f6939b;
+}
+
+.bg-orange {
+  background: #ff8b23 !important;
+}
+.bg-orange:hover {
+  background: #ff7b04 !important;
+}
+.bg-orange:focus {
+  box-shadow: 0 0 8px #ffcc9d;
+}
+
+.bg-yellow {
+  background: #ffbd00 !important;
+}
+.bg-yellow:hover {
+  background: #e0a600 !important;
+}
+.bg-yellow:focus {
+  box-shadow: 0 0 8px #ffdd7a;
+}
+
+.bg-olive {
+  background: #32CD32 !important;
+}
+.bg-olive:hover {
+  background: #2cb42c !important;
+}
+.bg-olive:focus {
+  box-shadow: 0 0 8px #94e594;
+}
+
+.bg-green {
+  background: #018a4d !important;
+}
+.bg-green:hover {
+  background: #01a85e !important;
+}
+.bg-green:focus {
+  box-shadow: 0 0 8px #08fd90;
+}
+
+.bg-teal {
+  background: #008080 !important;
+}
+.bg-teal:hover {
+  background: #006161 !important;
+}
+.bg-teal:focus {
+  box-shadow: 0 0 8px #00fafa;
+}
+
+.bg-blue {
+  background: #1088e5 !important;
+}
+.bg-blue:hover {
+  background: #0e77c8 !important;
+}
+.bg-blue:focus {
+  box-shadow: 0 0 8px #7ac0f6;
+}
+
+.bg-violet {
+  background: #EE82EE !important;
+}
+.bg-violet:hover {
+  background: #ea67ea !important;
+}
+.bg-violet:focus {
+  box-shadow: 0 0 8px #fdeefd;
+}
+
+.bg-purple {
+  background: #B413EC !important;
+}
+.bg-purple:hover {
+  background: #9e11d0 !important;
+}
+.bg-purple:focus {
+  box-shadow: 0 0 8px #d884f5;
+}
+
+.bg-pink {
+  background: #FF1493 !important;
+}
+.bg-pink:hover {
+  background: #f40084 !important;
+}
+.bg-pink:focus {
+  box-shadow: 0 0 8px #ff8ecb;
+}
+
+.bg-brown {
+  background: #7f2900 !important;
+}
+.bg-brown:hover {
+  background: #601f00 !important;
+}
+.bg-brown:focus {
+  box-shadow: 0 0 8px #f95100;
+}
+
+.bg-grey {
+  background: #A0A0A0 !important;
+}
+.bg-grey:hover {
+  background: #919191 !important;
+}
+.bg-grey:focus {
+  box-shadow: 0 0 8px #dddddd;
+}
+
+.bg-black {
+  background: #000000 !important;
+}
+.bg-black:hover {
+  background: #0f0f0f !important;
+}
+.bg-black:focus {
+  box-shadow: 0 0 8px #3d3d3d;
+}
+
+.bg-white {
+  background: #FFF !important;
+}
+.bg-white:hover {
+  background: #f0f0f0 !important;
+}
+.bg-white:focus {
+  box-shadow: 0 0 8px white;
+}
+
+.fc-primary {
+  color: #1088e5 !important;
+}
+
+.fc-secondary {
+  color: #A0A0A0 !important;
+}
+
+.fc-red {
+  color: #ed2232 !important;
+}
+
+.fc-orange {
+  color: #ff8b23 !important;
+}
+
+.fc-yellow {
+  color: #ffbd00 !important;
+}
+
+.fc-olive {
+  color: #32CD32 !important;
+}
+
+.fc-green {
+  color: #018a4d !important;
+}
+
+.fc-teal {
+  color: #008080 !important;
+}
+
+.fc-blue {
+  color: #1088e5 !important;
+}
+
+.fc-violet {
+  color: #EE82EE !important;
+}
+
+.fc-purple {
+  color: #B413EC !important;
+}
+
+.fc-pink {
+  color: #FF1493 !important;
+}
+
+.fc-brown {
+  color: #7f2900 !important;
+}
+
+.fc-grey {
+  color: #A0A0A0 !important;
+}
+
+.fc-black {
+  color: #000000 !important;
+}
+
+.fc-white {
+  color: #FFF !important;
+}
+
+button.btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: capitalize;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 0 32px;
+  background: #FFF;
+  color: #303030;
+  cursor: pointer;
+  transition: all ease 0.25s;
+}
+button.btn:hover {
+  transition: all ease 0.25s;
+}
+button.btn:focus {
+  background: rgba(0, 0, 0, 0.035);
+}
+button.btn-sm {
+  line-height: 40px !important;
+}
+button.btn-md {
+  line-height: 48px !important;
+}
+button.btn-lg {
+  line-height: 56px !important;
+}
+button.btn-rounded {
+  border-radius: 100px;
+}
+button.btn-disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  text-shadow: none;
+}
+button.btn-disabled:focus {
+  background: none;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=Button.css.map */

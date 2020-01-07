@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="assets/style/Main.css">
+	<link rel="stylesheet" href="assets/style/base/Fonts.css">
+	<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+	<link rel="stylesheet" href="assets/style/component/Alert.css">
+	<link rel="stylesheet" href="assets/style/component/Button.css">
+	<link rel="stylesheet" href="assets/style/component/Form.css">
+	<title>UI Kit - @kerimtdev</title>
+</head>
+
+<style>
+	.bg {
+		border-radius: 4px;
+		font-size: 13px;
+		font-weight: 500;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 0;
+		padding: 16px 8px;
+	}
+
+	button {
+		margin-right: 16px;
+		margin-bottom: 16px;
+	}
+
+	hr {
+		width: 100%;
+		margin: 80px 0;
+		border: 0;
+		border-bottom: 1px solid #EAEAEA;
+	}
+</style>
+
+<body>
+
+<div class="container">
+
+	<div id="heading">
+		<div class="pl-2 mt-3 mb-4">
+			<h1>Typography</h1>
+			<p>Sistem içerisinde kullanılmak üzere oluşturulmuş <b>heading</b> görünümleri ve <b>heading-paragraph</b> görünümleri aşağıdaki gibidir.</p>
+		</div>
+		<div class="row no-gutters">
+			<div class="col xs-12 sm-6 md-6 lg-6 xl-6">
+				<h1>Heading 1</h1>
+				<h2>Heading 2</h2>
+				<h3>Heading 3</h3>
+				<h4>Heading 4</h4>
+				<h5>Heading 5</h5>
+				<h6>Heading 6</h6>
+			</div>
+			<div class="col xs-12 sm-6 md-6 lg-6 xl-6">
+				<h2>Heading Here</h2>
+				<p>Paragraph Area. Lorem ipsum sit amet, consectetur adipisicing elit. Cum ea expedita inventore iste, maiores molestiae quam rerum sapiente. Culpa illum ipsa, mollitia numquam pariatur repellat totam unde. Enim, neque, quaerat. Culpa illum ipsa, mollitia numquam pariatur repellat totam unde. Enim, neque, quaerat.</p>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<div id="grid">
+		<div class="pl-2 mt-3">
+			<h1>Grid System</h1>
+		</div>
+		<div class="row no-gutters">
+			<div class="col xs-12 sm-6 md-4 lg-3 xl-7 mb-2"><p class="bg elevation-1 fc-orange">col xs-12 sm-6 md-4 lg-3 xl-7</p></div>
+			<div class="col xs-12 sm-6 md-4 lg-3 xl-5 mb-2"><p class="bg elevation-1 fc-orange">col xs-12 sm-6 md-4 lg-3 xl-5</p></div>
+
+			<div class="col xs-12 sm-6 md-4 lg-3 xl-2 mb-2"><p class="bg elevation-1 fc-secondary">col xs-12 sm-6 md-4 lg-3 xl-2</p></div>
+			<div class="col xs-12 sm-6 md-4 lg-3 xl-2 mb-2"><p class="bg elevation-1 fc-secondary">col xs-12 sm-6 md-4 lg-3 xl-2</p></div>
+			<div class="col xs-12 sm-6 md-4 lg-3 xl-2 mb-2"><p class="bg elevation-1 fc-secondary">col xs-12 sm-6 md-4 lg-3 xl-2</p></div>
+			<div class="col xs-12 sm-6 md-4 lg-3 xl-2 mb-2"><p class="bg elevation-1 fc-secondary">col xs-12 sm-6 md-4 lg-3 xl-2</p></div>
+			<div class="col xs-12 sm-6 md-4 lg-3 xl-2 mb-2"><p class="bg elevation-1 fc-secondary">col xs-12 sm-6 md-4 lg-3 xl-2</p></div>
+			<div class="col xs-12 sm-6 md-4 lg-3 xl-2 mb-2"><p class="bg elevation-1 fc-secondary">col xs-12 sm-6 md-4 lg-3 xl-2</p></div>
+		</div>
+	</div>
+
+	<hr>
+
+
+	<div id="alerts">
+		<div class="pl-2 mt-3 mb-4">
+			<h1>Alert</h1>
+			<p>Alert renklendirmeleri konusunda <b>::root</b> içerisndeki renk tanımlamalarının tamamıyla uyumludur. <b>fprimary | fsecondary | fred | f*root-renk-adi*</b> şeklinde kullanılabilir.</p>
+			<p>Alert'in kapatılabilir durumları için <b>alert-closable</b> tanımı root div'e class olarak eklenmeli ve close-icon konulmalıdır.</p>
+			<p><b>NOT: Bu alanda istenilen her türlü ikon kullanılabilir. ion-icon tavsiye edilir.</b></p>
+		</div>
+		<div class="row no-gutters">
+			<div class="col xs-12 sm-6 md-6 lg-6 xl-6 mb-2">
+				<h2>Standart Alerts</h2>
+				<div class="alert fc-primary alert-success mb-3">Lorem ipsum sit amet, consectetur adipisicing elit.</div>
+				<div class="alert fc-secondary alert-success mb-3">Lorem ipsum sit amet, consectetur adipisicing elit.</div>
+				<div class="alert fc-red alert-success mb-3">Lorem ipsum sit amet, consectetur adipisicing elit.</div>
+			</div>
+
+			<div class="col xs-12 sm-6 md-6 lg-6 xl6 mb-2">
+				<h2>Closable Alerts</h2>
+				<div class="alert fc-green alert-closable mb-3">
+					<span>Lorem ipsum sit amet, consectetur adipisicing elit.</span>
+					<ion-icon name="close"></ion-icon>
+				</div>
+				<div class="alert fc-yellow alert-closable mb-3">
+					<span>Lorem ipsum sit amet, consectetur adipisicing elit.</span>
+					<ion-icon name="close"></ion-icon>
+				</div>
+				<div class="alert fc-orange alert-closable">
+					<span>Lorem ipsum sit amet, consectetur adipisicing elit.</span>
+					<ion-icon name="close"></ion-icon>
+				</div>
+			</div>
+
+			<div class="col xs-12 sm-6 md-6 lg-6 xl6">
+				<h2>Rounded Alerts</h2>
+				<div class="alert fc-teal alert-rounded alert-closable mb-3">
+					<span>Lorem ipsum sit amet, consectetur adipisicing elit.</span>
+					<ion-icon name="close"></ion-icon>
+				</div>
+				<div class="alert fc-brown alert-rounded alert-closable mb-3">
+					<span>Lorem ipsum sit amet, consectetur adipisicing elit.</span>
+					<ion-icon name="close"></ion-icon>
+				</div>
+				<div class="alert fc-grey alert-rounded alert-closable">
+					<span>Lorem ipsum sit amet, consectetur adipisicing elit.</span>
+					<ion-icon name="close"></ion-icon>
+				</div>
+			</div>
+
+			<div class="col xs-12 sm-6 md-6 lg-6 xl6">
+				<h2>Icon Alerts</h2>
+				<div class="alert alert-icon fc-green alert-rounded alert-closable mb-3">
+					<ion-icon name="checkmark-circle-outline"></ion-icon>
+					<span>Lorem ipsum sit amet, consectetur adipisicing elit.</span>
+				</div>
+				<div class="alert alert-icon fc-red alert-rounded alert-closable mb-3">
+					<ion-icon name="close-circle-outline"></ion-icon>
+					<span>Lorem ipsum sit amet, consectetur adipisicing elit.</span>
+				</div>
+				<div class="alert alert-icon fc-teal alert-rounded alert-closable mb-3">
+					<ion-icon name="notifications-off"></ion-icon>
+					<span>Lorem ipsum sit amet, consectetur adipisicing elit.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<hr>
+
+	<div id="button">
+		<div class="pl-2 mt-3 mb-4">
+			<h1>Button</h1>
+			<p>Buttonlar, <b>btn-sm | btn-md (default) | btn-lg</b> olmak üzere üç farklı boyut tipine sahiptir. İlgili class tanımları kullanılarak boyutlandırma işlemi yapılabilir.</p>
+			<p>Button text renklendirmeleri konusunda <b>:root</b> içerisindeki tanımlamaların tamamıyla uyumludur. <b>fc-primary | fc-secondary | fc-red | fc-*root-renk-adi*</b> şeklinde kullanılabilir.</p>
+			<p>Button arkaplan renklendirmeleri konusunda <b>:root</b> içerisindeki tanımlamaların tamamıyla uyumludur. <b>bg-primary | bg-secondary | bg-red | bg-*root-renk-adi*</b> şeklinde kullanılabilir.</p>
+			<p>Button tipleri konusunda <b>btn-rounded | btn-disabled</b> class tanımları kullanılabilir.</p>
+		</div>
+
+
+		<div class="row no-gutters">
+			<div class="col 12 xs-12 md-6 lg-12 xl-12 mb-4">
+				<h2>Medium Buttons</h2>
+				<button class="btn btn-md fc-primary">Lorem Ipsum</button>
+				<button class="btn btn-md fc-secondary">Lorem Ipsum</button>
+				<button class="btn btn-md fc-green">Lorem Ipsum</button>
+				<button class="btn btn-md fc-yellow">Lorem Ipsum</button>
+				<button class="btn btn-md fc-orange">Lorem Ipsum</button>
+				<button class="btn btn-md fc-red">Lorem Ipsum</button>
+			</div>
+			<div class="col 12 xs-12 md-6 lg-12 xl-12 mb-4">
+
+				<h2>Medium-Rounded Buttons</h2>
+				<button class="btn btn-md fc-primary btn-rounded">Lorem Ipsum</button>
+				<button class="btn btn-md fc-secondary btn-rounded">Lorem Ipsum</button>
+				<button class="btn btn-md fc-green btn-rounded">Lorem Ipsum</button>
+				<button class="btn btn-md fc-yellow btn-rounded">Lorem Ipsum</button>
+				<button class="btn btn-md fc-orange btn-rounded">Lorem Ipsum</button>
+				<button class="btn btn-md fc-red btn-rounded">Lorem Ipsum</button>
+			</div>
+
+			<div class="col 12 xs-12 md-6 lg-12 xl-12 mb-4">
+				<h2>Medium-Colored-Rounded Buttons</h2>
+				<button class="btn btn-md btn-rounded bg-primary fc-white">Lorem Ipsum</button>
+				<button class="btn btn-md btn-rounded bg-secondary fc-white">Lorem Ipsum</button>
+				<button class="btn btn-md btn-rounded bg-green fc-white">Lorem Ipsum</button>
+				<button class="btn btn-md btn-rounded bg-yellow fc-white">Lorem Ipsum</button>
+				<button class="btn btn-md btn-rounded bg-orange fc-white">Lorem Ipsum</button>
+				<button class="btn btn-md btn-rounded bg-red fc-white">Lorem Ipsum</button>
+			</div>
+
+			<div class="col 12 xs-12 md-6 lg-12 xl-12 mb-4">
+				<h2>Medium-Colored-Rounded-Disabled Buttons</h2>
+				<button class="btn btn-md btn-rounded btn-disabled bg-primary fc-white">Lorem Ipsum</button>
+				<button class="btn btn-md btn-rounded btn-disabled bg-secondary fc-white">Lorem Ipsum</button>
+				<button class="btn btn-md btn-rounded btn-disabled bg-green fc-white">Lorem Ipsum</button>
+				<button class="btn btn-md btn-rounded btn-disabled bg-yellow fc-white">Lorem Ipsum</button>
+				<button class="btn btn-md btn-rounded btn-disabled bg-orange fc-white">Lorem Ipsum</button>
+				<button class="btn btn-md btn-rounded btn-disabled bg-red fc-white">Lorem Ipsum</button>
+			</div>
+
+		</div>
+	</div>
+
+
+	<hr>
+
+
+	<div id="forms">
+		<div class="pl-2 mt-3 mb-4">
+			<h1>Form Elements</h1>
+			<p>Kapsayıcı form mutlaka <b>.f-container</b> etiketi tanımlarında olmalıdır.</p>
+			<p>Form elemanlarının tamamı mutlaka <b>div.form-group</b> etiketi arasında olmalıdır. Sliding labels kısmı için <b>div.form-group.slide-group</b> etiketi tanımlanmış olmalıdır.</p>
+		</div>
+		<div class="row no-gutters">
+			<div class="col xs-12 sm-12 md-12 lg-6 xl-6 mb-2">
+				<div class="form-container">
+					<h2>Textarea Element</h2>
+					<div class="form-group" element="textarea">
+						<label>Type something:</label>
+						<textarea class="elevation-2" cols="600" rows="5">Lorm Ipsum, Çiçero tarafından M.Ö. 45 tarihinde kaleme alınan "de Finibus Bonorum et Malorum" (İyi ve Kötünün Uç Sınırları) eserinin 1.10.32 ve 1.10.33 sayılı bölümlerinden gelmektedir. Bu kitap, ahlak kuramı üzerine bir tezdir ve Rönesans döneminde çok popüler olmuştur.Lorem Ipsum pasajının ilk satırı olan "Lorem ipsum dolor sit amet" 1.10.32 sayılı bölümdeki bir satırdan gelmektedir. Lorm Ipsum, Çiçero tarafından M.Ö. 45 tarihinde kaleme alınan "de Finibus Bonorum et Malorum" (İyi ve Kötünün Uç Sınırları) eserinin 1.10.32 ve 1.10.33 sayılı bölümlerinden gelmektedir. Bu kitap, ahlak kuramı üzerine bir tezdir ve Rönesans döneminde çok popüler olmuştur.Lorem Ipsum pasajının ilk satırı olan "Lorem ipsum dolor sit amet" 1.10.32 sayılı bölümdeki bir satırdan gelmektedir.</textarea>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="col xs-12 sm-12 md-6 lg-6 xl-6 mb-2">
+				<div class="form-container">
+					<h2>Standart Input Element</h2>
+					<div class="form-group">
+						<label for="standart-input">Input Label</label>
+						<input id="standart-input" class="elevation-2" type="text" placeholder="Type a something">
+					</div>
+
+					<div class="form-group" element="select">
+						<label>Select Label</label>
+						<select class="elevation-2">
+							<option disabled selected>Choose a option</option>
+							<option value="0">Samsung</option>
+							<option value="1">Apple</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col xs-12 sm-12 md-6 lg-6 xl-6 mb-2">
+				<div class="form-container">
+					<h2>Sliding Input-Labels</h2>
+					<div class="form-group" element="slide-input">
+						<input id="slide-element" class="elevation-2" type="text" required>
+						<label for="slide-element">Type a username</label>
+					</div>
+
+					<div class="form-group" element="slide-input">
+						<input id="slide-element2" class="elevation-2" type="password" required>
+						<label for="slide-element2">Type a password</label>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col xs-12 sm-12 md-12 lg-6 xl-6 mb-2">
+				<div class="form-container">
+					<h2>Radio & Checkbox Element</h2>
+					<div class="row no-gutters">
+
+						<div class="col xs-12 sm-12 md-6">
+							<div class="form-group" element="checkbox">
+								<input id="checkbox-item" name="checkbox" type="checkbox">
+								<label for="checkbox-item">Checkbox 1</label>
+							</div>
+							<div class="form-group" element="checkbox">
+								<input id="checkbox-item2" name="checkbox" type="checkbox">
+								<label for="checkbox-item2">Checkbox 2</label>
+							</div>
+							<div class="form-group" element="checkbox">
+								<input id="checkbox-item3" name="checkbox" type="checkbox">
+								<label for="checkbox-item3">Checkbox 3</label>
+							</div>
+						</div>
+
+
+						<div class="col xs-12 sm-12 md-6">
+							<div class="form-group" element="radio">
+								<input id="radio-item" name="radio" type="radio">
+								<label for="radio-item">Radio 1</label>
+							</div>
+							<div class="form-group" element="radio">
+								<input id="radio-item2" name="radio" type="radio">
+								<label for="radio-item2">Radio 2</label>
+							</div>
+							<div class="form-group" element="radio">
+								<input id="radio-item3" name="radio" type="radio">
+								<label for="radio-item3">Radio 3</label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+
+
+	<hr>
+
+
+</div>
+
+</body>
+</html>

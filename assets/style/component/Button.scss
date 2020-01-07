@@ -1,0 +1,55 @@
+@import "../base/Colors";
+
+button.btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 48px;
+  text-transform: capitalize;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 0 32px;
+  background: #FFF;
+  color: #303030;
+  cursor: pointer;
+  transition: all ease 0.25s;
+
+  &:hover {
+    transition: all ease 0.25s;
+  }
+
+  &:focus{
+    background: rgba(0,0,0,0.035);
+  }
+
+  // Button Sizes
+  &-sm {
+    line-height: 40px !important;
+  }
+
+  &-md {
+    line-height: 48px !important;
+  }
+
+  &-lg {
+    line-height: 56px !important;
+  }
+
+
+  //Button Types
+  &-rounded {
+    border-radius: 100px;
+  }
+
+  &-disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+    text-shadow: none;
+
+    &:focus{
+      background: none;
+      box-shadow: none;
+    }
+  }
+
+}

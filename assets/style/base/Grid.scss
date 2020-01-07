@@ -1,0 +1,83 @@
+$sm-breakpoint: 576px;
+$md-breakpoint: 768px;
+$lg-breakpoint: 992px;
+$xl-breakpoint: 1200px;
+
+@mixin col-properties() {
+  $col: 8.333333333333333%;
+
+  &-1 {width: $col * 1}
+  &-2 {width: $col * 2}
+  &-3 {width: $col * 3}
+  &-4 {width: $col * 4}
+  &-5 {width: $col * 5}
+  &-6 {width: $col * 6}
+  &-7 {width: $col * 7}
+  &-8 {width: $col * 8}
+  &-9 {width: $col * 9}
+  &-10 {width: $col * 10}
+  &-11 {width: $col * 11}
+  &-12 {width: $col * 12}
+}
+
+
+.row {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  & .no-gutters > .col,
+  & * > .no-gutters > .col {
+    padding: 0 !important;
+  }
+
+  .col {
+    float: left;
+    padding: 0 16px;
+    box-sizing: border-box;
+
+    &.xs {
+      @media only screen and (max-width: $sm-breakpoint) {
+        @include col-properties
+      }
+    }
+
+    &.sm {
+      @media only screen and (min-width: $sm-breakpoint) {
+        @include col-properties
+      }
+    }
+
+    &.md {
+      @media only screen and (min-width: $md-breakpoint) {
+        @include col-properties
+      }
+    }
+
+    &.lg {
+      @media only screen and (min-width: $lg-breakpoint) {
+        @include col-properties
+      }
+    }
+
+    &.xl {
+      @media only screen and (min-width: $xl-breakpoint) {
+        @include col-properties
+      }
+    }
+  }
+}
+
+div.container {
+  width: 1200px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  @media only screen and (min-width: $md-breakpoint) {
+    padding: 0 16px;
+  }
+
+  &-fluid {
+    width: 100%;
+  }
+}

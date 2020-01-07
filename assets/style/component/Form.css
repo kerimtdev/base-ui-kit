@@ -1,0 +1,188 @@
+@charset "UTF-8";
+div.form-group {
+  max-width: 100%;
+  margin: 16px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+div.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+}
+div.form-group label {
+  box-sizing: border-box;
+  margin: 0 0 2px;
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: all ease 0.25s;
+}
+div.form-group[element=input] label {
+  position: relative;
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0;
+  color: var(--black);
+  margin: 0 0 2px;
+}
+div.form-group[element=select] select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 19px 16px;
+  font-size: 14px;
+  font-weight: 500 !important;
+  line-height: 24px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  appearance: none;
+}
+div.form-group[element=select] select option {
+  background: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px !important;
+  color: #555;
+  appearance: none;
+}
+div.form-group[element=select] select option[disabled] {
+  color: #AAA;
+}
+div.form-group[element=checkbox], div.form-group[element=radio] {
+  display: flex;
+  align-items: center;
+}
+div.form-group[element=checkbox] input, div.form-group[element=radio] input {
+  width: 0;
+  height: 0;
+  display: none;
+}
+div.form-group[element=checkbox] input + label, div.form-group[element=radio] input + label {
+  padding: 0 0 0 28px;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+}
+div.form-group[element=checkbox] input + label::before, div.form-group[element=radio] input + label::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: #f0f0f0;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all ease 0.25s;
+}
+div.form-group[element=checkbox] input:hover + label::before, div.form-group[element=radio] input:hover + label::before {
+  background: #D0D0D0;
+}
+div.form-group[element=checkbox] input:checked + label::before, div.form-group[element=radio] input:checked + label::before {
+  background: var(--primaryColor);
+  transition: all ease 0.25s;
+}
+div.form-group[element=checkbox] input:checked + label::after, div.form-group[element=radio] input:checked + label::after {
+  opacity: 1;
+  transform: scale(1);
+  transition: all ease 0.25s;
+}
+div.form-group[element=checkbox] input + label::after, div.form-group[element=radio] input + label::after {
+  font-family: "Ionicons", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+  content: "";
+  border-radius: 1.25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: scale(0);
+  transition: all ease 0.25s;
+}
+div.form-group[element=checkbox] input[type=radio] + label::before, div.form-group[element=radio] input[type=radio] + label::before {
+  border-radius: 50px;
+}
+div.form-group[element=checkbox] input[type=radio] + label::after, div.form-group[element=radio] input[type=radio] + label::after {
+  line-height: 20px;
+}
+div.form-group[element=textarea] textarea {
+  box-sizing: border-box;
+  max-width: 100%;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 1.8;
+  resize: none;
+}
+div.form-group[element=textarea] textarea::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #FFF;
+}
+div.form-group[element=textarea] textarea::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #E0E0E0;
+}
+div.form-group[element=textarea] label {
+  display: block;
+  width: 100%;
+}
+div.form-group[element=slide-input] label {
+  color: #555;
+  position: absolute !important;
+  cursor: initial;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 16px;
+}
+div.form-group[element=slide-input] input {
+  line-height: 24px;
+  letter-spacing: 0 !important;
+  transition: all ease 0.25s;
+}
+div.form-group[element=slide-input] input:valid {
+  border-radius: 4px 4px 0 0;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  line-height: 40px;
+  transition: all ease 0.25s;
+}
+div.form-group[element=slide-input] input:valid + label {
+  position: absolute !important;
+  font-size: 12px;
+  padding: 8px 16px;
+  color: #AAA;
+}
+div.form-group[element=slide-input] input:focus {
+  padding-top: 24px;
+  padding-bottom: 8px;
+  line-height: 40px;
+  transition: all ease 0.25s;
+}
+div.form-group[element=slide-input] input:focus + label {
+  position: absolute !important;
+  font-size: 12px;
+  padding: 8px 16px;
+  color: #AAA;
+}
+
+/*# sourceMappingURL=Form.css.map */

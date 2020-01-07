@@ -1,0 +1,298 @@
+:root{
+  --red: #ed2232;
+  --orange: #ff8b23;
+  --yellow: #ffbd00;
+  --olive: #32CD32;
+  --green: #018a4d;
+  --teal: #008080;
+  --blue: #1088e5;
+  --violet: #EE82EE;
+  --purple: #B413EC;
+  --pink: #FF1493;
+  --brown: #7f2900;
+  --grey: #A0A0A0;
+  --black: #000000;
+  --white: #FFF;
+  --primaryColor: var(--blue);
+  --secondaryColor: var(--grey);
+}
+
+$red: #ed2232;
+$orange: #ff8b23;
+$yellow: #ffbd00;
+$olive: #32CD32;
+$green: #018a4d;
+$teal: #008080;
+$blue: #1088e5;
+$violet: #EE82EE;
+$purple: #B413EC;
+$pink: #FF1493;
+$brown: #7f2900;
+$grey: #A0A0A0;
+$black: #000000;
+$white: #FFF;
+$primaryColor: $blue;
+$secondaryColor: $grey;
+
+
+
+// Background Colors
+.bg-primary {
+  background: $primaryColor !important;
+
+  &:hover {
+    background: lighten($primaryColor, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($primaryColor, 24);
+  }
+}
+
+.bg-secondary {
+  background: $secondaryColor !important;
+
+  &:hover {
+    background: darken($secondaryColor, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($secondaryColor, 24);
+  }
+}
+
+.bg-red {
+  background: $red !important;
+
+  &:hover {
+    background: lighten($red, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($red, 24);
+  }
+}
+
+.bg-orange {
+  background: $orange !important;
+
+  &:hover {
+    background: darken($orange, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($orange, 24);
+  }
+}
+
+.bg-yellow {
+  background: $yellow !important;
+
+  &:hover {
+    background: darken($yellow, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($yellow, 24);
+  }
+}
+
+.bg-olive {
+  background: $olive !important;
+
+  &:hover {
+    background: darken($olive, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($olive, 24);
+  }
+}
+
+.bg-green {
+  background: $green !important;
+
+  &:hover {
+    background: lighten($green, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($green, 24);
+  }
+}
+
+.bg-teal {
+  background: $teal !important;
+
+  &:hover {
+    background: darken($teal, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($teal, 24);
+  }
+}
+
+.bg-blue {
+  background: $blue !important;
+
+  &:hover {
+    background: darken($blue, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($blue, 24);
+  }
+}
+
+.bg-violet {
+  background: $violet !important;
+
+  &:hover {
+    background: darken($violet, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($violet, 24);
+  }
+}
+
+.bg-purple {
+  background: $purple !important;
+
+  &:hover {
+    background: darken($purple, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($purple, 24);
+  }
+}
+
+.bg-pink {
+  background: $pink !important;
+
+  &:hover {
+    background: darken($pink, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($pink, 24);
+  }
+}
+
+.bg-brown {
+  background: $brown !important;
+
+  &:hover {
+    background: darken($brown, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($brown, 24);
+  }
+}
+
+.bg-grey {
+  background: $grey !important;
+
+  &:hover {
+    background: darken($grey, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($grey, 24);
+  }
+}
+
+.bg-black {
+  background: $black !important;
+
+  &:hover {
+    background: lighten($black, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($black, 24);
+  }
+}
+
+.bg-white {
+  background: $white !important;
+
+  &:hover {
+    background: darken($white, 6) !important;
+  }
+
+  &:focus{
+    box-shadow: 0 0 8px lighten($white, 24);
+  }
+}
+
+
+
+
+// Background Colors
+.fc-primary {
+  color: $primaryColor !important;
+}
+
+.fc-secondary {
+  color: $secondaryColor !important;
+}
+
+.fc-red {
+  color: $red !important;
+}
+
+.fc-orange {
+  color: $orange !important;
+}
+
+.fc-yellow {
+  color: $yellow !important;
+}
+
+.fc-olive {
+  color: $olive !important;
+}
+
+.fc-green {
+  color: $green !important;
+}
+
+.fc-teal {
+  color: $teal !important;
+}
+
+.fc-blue {
+  color: $blue !important;
+}
+
+.fc-violet {
+  color: $violet !important;
+}
+
+.fc-purple {
+  color: $purple !important;
+}
+
+.fc-pink {
+  color: $pink !important;
+}
+
+.fc-brown {
+  color: $brown !important;
+}
+
+.fc-grey {
+  color: $grey !important;
+}
+
+.fc-black {
+  color: $black !important;
+}
+
+.fc-white {
+  color: $white !important;
+}
